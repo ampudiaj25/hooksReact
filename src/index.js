@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import UseRef from './components/exampleUseRef/useRef';
+import UseMemo from './components/exampleUseMemo/useMemo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -10,6 +10,6 @@ root.render(
       <Users></Users>
       <ListUsers></ListUsers>
     </UserContextProvider> */}
-     <UseRef></UseRef>
+     <UseMemo></UseMemo>
   </React.StrictMode>
 );
