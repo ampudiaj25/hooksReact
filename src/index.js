@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import UseMemo from './components/exampleUseMemo/useMemo';
+import UseForm from './components/exampleUseForm/useForm';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -10,6 +10,6 @@ root.render(
       <Users></Users>
       <ListUsers></ListUsers>
     </UserContextProvider> */}
-     <UseMemo></UseMemo>
+     <UseForm></UseForm>
   </React.StrictMode>
 );

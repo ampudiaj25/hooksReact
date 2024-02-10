@@ -1,0 +1,17 @@
+body {
+background-color: aliceblue;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+label,input,select {
+    display: block;
+    width: 100%;
+}
+
+span {
+    color: tomato;
+    font-size: x-small;
+    display: block;
+}
